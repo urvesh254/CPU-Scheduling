@@ -19,6 +19,7 @@ public class Process {
         this.priority = priority;
     }
 
+    @Override
     public String toString() {
         return "Process [ Name = " + name + ", AT = " + at + ", BT = " + bt + ", Priority = " + priority + " ]";
     }

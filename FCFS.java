@@ -55,6 +55,5 @@ public class FCFS implements CPUAlgos {
         };
 
         Collections.sort(list, com);
-
     }
 }
